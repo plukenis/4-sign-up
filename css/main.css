@@ -1,0 +1,33 @@
+body {
+background-color: #44b2c8;
+
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: calc(50% - 400px);
+}
+
+
+
+.left-column {
+    width: 40%;
+    float: left;
+    padding: 40px;
+    padding-bottom: 20px;
+    background-color: #3f52f2;
+    color:#fff
+}
+
+a {
+    color: #fff 
+}
+.right-column {
+    width: 60%;
+    float: left;
+    padding: 60px;
+background-color: #fff;
+}
+
