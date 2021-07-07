@@ -21,9 +21,16 @@ background-color: #44b2c8;
     color:#fff
 }
 
-a {
-    color: #fff 
+h1 {
 }
+
+.bottom-texts {
+}
+
+.bottom-texts > a {
+  color: #fff;
+}
+
 .right-column {
     width: 60%;
     float: left;
