@@ -1,0 +1,71 @@
+form {
+    display: inline-block;
+    width: 100%;
+  }
+  form > .form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  form > .form-row:last-of-type {
+    margin-bottom: 0;
+  }
+  form > .form-row > label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #777;
+    text-transform: uppercase;
+  }
+  form > .form-row > input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  form > .form-row > input:focus-visible {
+    outline: 2px solid #777;
+  }
+  
+  form > .form-row > button {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 18px;
+    background: #2348d4;
+    background: linear-gradient(53deg, #2348d4 0%, #0265de 100%);
+    color: #fff;
+    border: none;
+  }
+  form > .form-row > button:hover {
+    cursor: pointer;
+    background: #0265de;
+    background: linear-gradient(53deg, #0265de 0%, #2348d4 100%);
+  }
+  
+  form > .form-row > span {
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+  }
+  form > .form-row > a {
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    text-decoration: none;
+    color: #2348d4;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  form > .form-row > a:hover {
+    text-decoration: underline;
+  }
