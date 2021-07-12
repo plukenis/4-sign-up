@@ -30,25 +30,6 @@ form {
     outline: 2px solid #777;
   }
   
-  form > .form-row > button {
-    font-size: 20px;
-    line-height: 26px;
-    text-transform: capitalize;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 18px;
-    background: #2348d4;
-    background: linear-gradient(53deg, #2348d4 0%, #0265de 100%);
-    color: #fff;
-    border: none;
-  }
-  form > .form-row > button:hover {
-    cursor: pointer;
-    background: #0265de;
-    background: linear-gradient(53deg, #0265de 0%, #2348d4 100%);
-  }
-  
   form > .form-row > span {
     display: inline-block;
     line-height: 26px;
